@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0e5241;
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.logo {
+    border: 2px solid #333;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #777;
+    text-align: center;
+}
+
+.logo_txt {
+    margin: 10px auto;
+}
+
+.main-nav a {
+    display: block;
+    float: right;
+    padding: .5rem;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 2rem;
+    text-shadow: 1px 1px black;
+}
+
+.main-nav a:hover {
+    transform: translateY(-2px);
+    text-shadow: 2px 2px black;
+}
+
+.main-header {
+    height: 98vh;
+    background-image: linear-gradient(to bottom, hsla(165, 71%, 19%, 0.733), rgba(255, 255, 255, 0.0)), url(../assets/hero.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+#main-header__content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    transform: translateY(-50%);
+    padding: 1rem;
+    text-shadow: 1px 1px black;
+}
+
+#main-header__content h1 {
+    font-size: 4rem;
+    font-weight: 200;
+    margin-bottom: 1.4rem;
+}
+
+#main-header__content p {
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-bottom: 2.5rem;
+}
+
+.btn {
+    background-color: #10795e;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 6rem;
+    font-size: 20px;
+    border: rgba(0, 0, 0, 0.432) solid 1px;
+}
+
+.btn:hover {
+    background-color: rgb(7, 82, 63)
+}
+
+.center_wrapper{
+    width: 960px;
+    
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer{
+  height: auto;
+    width: 100%;
+    background-image: url(..assets/footer.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+}
