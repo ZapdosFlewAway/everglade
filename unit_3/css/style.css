@@ -47,7 +47,7 @@ body {
 
 .main-header {
     height: 98vh;
-    background-image: linear-gradient(to bottom, hsla(165, 71%, 19%, 0.733), rgba(255, 255, 255, 0.0)), url(..images/hero.jpg);
+    background-image: linear-gradient(to bottom, hsla(165, 71%, 19%, 0.733), rgba(255, 255, 255, 0.0)), url(everglade/unit_3/images/hero.jpg);
     background-size: cover;
     background-position: bottom;
     position: relative;
